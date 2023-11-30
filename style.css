@@ -1,0 +1,109 @@
+/* Global styling for the body element */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg,#f10a0a 0%, #ffffff 15%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  /*Stiliranje sadrzaja u content klasi*/
+  .content {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  /*Naslov*/
+  .naslov {
+    text-align: center;
+    font-size: 2em;
+  }
+  /* Styling for the container element using CSS Grid */
+  .container {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 45px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  /* Styling for the card element */
+  .kartica {
+    position:relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  }
+  
+  /*Postavljanje širine za button*/
+  .tipka {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  /*Stil za sliku*/
+  .content img {
+    max-width: 20%;
+    height: 50px;
+  }
+  /* Zajednicki styling za face1 i face2 */
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 15, 15);
+  } 
+  
+  /* Styling for the first face (face1) */
+  .face1 {
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #faffbb;
+  }
+  
+  /* Styling for heading inside the first face */
+  .face1 h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for specific elements inside the first face */
+  .face1 .txt {
+    background-color: #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Styling for the second face (face2) */
+  .face2 {
+    transition: 0.5s;
+  }
+  
+  /* Styling for the heading inside the second face */
+  .face2 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 3.5em;
+    color: #000000;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  /* Hover effect on the card to reveal the second face */
+  .kartica:hover .face2 {
+    height: 50px;
+  }
+  
+  /* Hover effect on the heading inside the second face */
+  .kartica:hover .face2 h2 {
+    font-size: 2em;
+  }
+  
