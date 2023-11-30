@@ -11,7 +11,7 @@ body {
   /*Stiliranje sadrzaja u content klasi*/
   .content {
     display:flex;
-    flex-direction: column;
+    flex-direction:row;
     text-align: center;
   }
   /*Naslov*/
