@@ -54,6 +54,10 @@ body {
     height: 50px;
     align-self: center;
   }
+
+  .logo:hover {
+    transform: scale(1.9);
+  }
   /* Zajednicki styling za naslovnu stranu i pozadinu */
   .face {
     position: absolute;
