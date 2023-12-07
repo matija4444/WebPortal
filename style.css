@@ -74,9 +74,7 @@ body {
   }
   /* Styling for specific elements inside the first face */
   .pozadina .txt {
-    background-color: #000000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #000000;
   }
   /* Styling for the second face (face2) */
   .naslovna {
@@ -131,6 +129,7 @@ body {
     border-top: 16px solid #3498db;
     animation: spin 2s linear infinite;
   }
+  /*Animacija za vrtnju loadera*/
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -140,7 +139,7 @@ body {
     animation-name: animateportal;
     animation-duration: 2s;
   }
-  /**/
+  /*Animacija za promjenu vidljivosti portala*/
   @keyframes animateportal { 
     from{ opacity:0 } 
     to{  opacity:1 }
