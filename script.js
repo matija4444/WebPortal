@@ -1,10 +1,12 @@
 var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+    console.log('myFunction called');
+  myVar = setTimeout(showPage, 1000);
 }
 
 function showPage() {
+    console.log('showPage called');
   document.getElementById("loader").style.display = "none";
   document.getElementById("portal").style.display = "block";
 }
