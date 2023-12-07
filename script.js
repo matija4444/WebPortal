@@ -1,12 +1,12 @@
+//Jednostavna skripta za animaciju stranice
 var myVar;
-
+//Funkcija koja se ucitava kod ucitavanje body elementa
 function myFunction() {
-    console.log('myFunction called');
-  myVar = setTimeout(showPage, 1000);
+    //ova funkcija ce pozvati funkciju showPage ali nakon 2 sekunde
+  myVar = setTimeout(showPage, 2000);
 }
-
+//Ova funkcija sakrije loader a pokaze web portal
 function showPage() {
-    console.log('showPage called');
   document.getElementById("loader").style.display = "none";
   document.getElementById("portal").style.display = "block";
 }
