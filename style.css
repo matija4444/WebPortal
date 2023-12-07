@@ -124,4 +124,15 @@ body {
     /*Kada miš uđe u button on se poveca 1.3 puta*/
     transform: scale(1.3);
   }
+  /*Stilizacija za footer*/
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #aeb3b5;
+    color: #000000;
+  }
+  footer p {
+      padding: 15px;
+  }
   
