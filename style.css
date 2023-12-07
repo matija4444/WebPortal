@@ -103,15 +103,14 @@ body {
     color: #ffffff;
     transition: 0.5s;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 10;
   }
   
-  /* Hover effect on the card to reveal the second face */
+  /* Efekt da se naslovnica stisne i  pokaze pozadina */
   .kartica:hover .naslovna {
     height: 50px;
   }
   
-  /* Hover effect on the heading inside the second face */
+  /* Efekt smanjivanja h2 s naslovom */
   .kartica:hover .naslovna h2 {
     font-size: 2em;
   }
