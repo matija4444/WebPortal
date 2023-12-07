@@ -49,7 +49,7 @@ body {
   }
 
   /*Stil za sliku*/
-  .content img {
+  .logo {
     max-width: 25%;
     height: 50px;
     align-self: center;
