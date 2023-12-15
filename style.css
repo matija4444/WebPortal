@@ -67,20 +67,20 @@ body {
     padding: 15px;
     background-color: #aeb3b5;
   }
-  /* Styling for heading inside the first face */
+  /* Styling za elemente */
   .pozadina h2 {
     margin: 0;
     padding: 0;
   }
-  /* Styling for specific elements inside the first face */
+  /* Styling za elemente  */
   .pozadina .txt {
     color: #000000;
   }
-  /* Styling for the second face (face2) */
+  /* Styling za naslovnu */
   .naslovna {
     transition: 0.5s;
   }
-  /* Styling for the heading inside the second face */
+  /* Styling za naslov unutar naslovne stranice */
   .naslovna h2 {
     margin: 0;
     padding: 0;
