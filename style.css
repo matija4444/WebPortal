@@ -7,7 +7,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   }
   /*Stiliranje sadrzaja u content klasi*/
-  .content {
+  .sadrzaj {
     display:flex;
     flex-direction:column;
     text-align: center;
