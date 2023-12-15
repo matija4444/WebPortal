@@ -134,6 +134,10 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  /*Postavljanje stranice da se ne vidi*/
+  #portal {
+    display: none;
+  }
   /* Animacija za učitavanje portala */
   .animate-portal {
     animation-name: animateportal;
@@ -144,7 +148,4 @@ body {
     from{ opacity:0 } 
     to{  opacity:1 }
   }
-  /*Postavljanje stranice da se ne vidi*/
-  #portal {
-    display: none;
-  }
+  
